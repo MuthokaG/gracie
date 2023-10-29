@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reverse a Number</title>
+</head>
+<body>
+  <h1>Reverse a Number</h1>
+
+  <script>
+    function reverseNumber(number) {
+      const reversed = parseInt(number.toString().split('').reverse().join(''));
+      return reversed;
+    }
+
+    const originalNumber = 32243;
+    const reversedNumber = reverseNumber(originalNumber);
+
+    // Display the result on the webpage
+    document.write("<p>Original Number: " + originalNumber + "</p>");
+    document.write("<p>Reversed Number: " + reversedNumber + "</p>");
+  </script>
+</body>
+</html>
+
+
+
+
